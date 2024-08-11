@@ -1,0 +1,28 @@
+{
+    "name": "spec-doc/common-contracts",
+    "type": "library",
+    "description": "A set of common interfaces for the documents specificator components",
+    "license": "MIT",
+    "keywords": ["abstractions", "common", "contracts", "interfaces", "specification", "specificator", "specifier"],
+    "homepage": "https://github.com/spec-doc",
+    "support": {
+        "issues": "https://github.com/spec-doc/specificator/issues",
+        "source": "https://github.com/spec-doc/common-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecDoc\\Specificator\\Contracts\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
